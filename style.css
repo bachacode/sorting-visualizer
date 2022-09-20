@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(97 166 171);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -22,8 +26,26 @@
     
 }
 
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+span + span {
+    margin-left: 10px;
+}
+
 .bar{
-    width: 30px;
-    border: 1px solid black;
-    margin: 0 2px;
+    width: 15px;
+    border: 2px solid rgb(41 27 37);
+    margin: 0 1px;
+    background-color: rgb(246 246 233);
 }
