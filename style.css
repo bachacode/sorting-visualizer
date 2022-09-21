@@ -23,7 +23,7 @@ body{
 .bars-container{
     display: flex;
     flex-direction: row;
-    
+    align-items: flex-end;
 }
 
 .btn-container{
@@ -39,9 +39,6 @@ body{
     justify-content: center;
 }
 
-span + span {
-    margin-left: 10px;
-}
 
 .bar{
     width: 15px;

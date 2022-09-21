@@ -77,11 +77,17 @@ async function bubbleSort(array){
         }
         await sleep(30);        
     }
+    sortBtn.disabled = false;
+    slider.disabled = false;
+    randomizeArray.disabled = false;
     return array;
 }
 
 
 sortBtn.addEventListener("click", function(){
     let sortedArray = bubbleSort(unsortedArray);
+    sortBtn.disabled = true;
+    slider.disabled = true;
+    randomizeArray.disabled = true;
     console.log(sortedArray);
 })
